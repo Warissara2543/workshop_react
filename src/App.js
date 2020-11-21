@@ -19,28 +19,32 @@ const StyledWrapper = styled.div`
 function App() {
   return (
     <StyledWrapper >
+      <div>
+        <Link to="/add-word">AddWord</Link>
+      </div>
+
       <Switch>
 
         <Route path="/register">
-          <Register/>
+          <Register />
         </Route>
 
         <Route path="/login">
-          <LoginPages/>
+          <LoginPages />
         </Route>
 
         <Route path="/add-word">
-          <AddWord/>
+          <AddWord />
         </Route>
 
         <Route path="/">
-          <HomePages/>
+          <HomePages />
         </Route>
 
       </Switch>
     </StyledWrapper>
-)
-    
+  )
+
 
 }
 

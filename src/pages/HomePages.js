@@ -2,6 +2,8 @@ import WordCard from '../components/WordCard'
 import { Button, Input, Select, Row, Col } from 'antd';
 import styled from 'styled-components';
 import { useState } from 'react';
+import { 
+  Link } from "react-router-dom"
 
 const StyledWrapper = styled.div`
   padding: 30px;
@@ -73,6 +75,10 @@ function HomePages() {
     <StyledWrapper className="HomePages">
 
       <h1>My Vocab</h1>
+
+      <div>
+       
+      </div>
 
       {/* word */}
       <div className="word">
