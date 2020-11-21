@@ -4,11 +4,17 @@ import './index.css';
 import 'antd/dist/antd.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {  BrowserRouter as Router,
+          Switch,
+          Route,
+          Link } from "react-router-dom"
 
 ReactDOM.render(
   // system jsx
   <React.StrictMode>
-    <App />
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -32,7 +32,7 @@ const WordCard = (props) => {
                     <b>{props.word} <span>({props.types.join(",")})</span></b>
                 </div>
                 
-                <DeleteOutlined className="botton_delete"/>
+                <DeleteOutlined className="botton_delete" onClick={props.onDelete}/>
 
             </div>
 
