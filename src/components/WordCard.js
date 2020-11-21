@@ -5,12 +5,7 @@ import {DeleteOutlined} from '@ant-design/icons'
 const StyledWrapper = styled.div`
   box-shadow:0 0 4px 0 rgba(0,0,0,.5);
   border-radius:4px;
-  margin-top: 20px;
-  margin-left: 15px;
   padding: 10px;
-  height:90px;
-  width:290px;
-  /* text-align:center; */
 
   .titleCard{
       display:flex;
