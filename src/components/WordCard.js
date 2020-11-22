@@ -6,6 +6,7 @@ const StyledWrapper = styled.div`
   box-shadow:0 0 4px 0 rgba(0,0,0,.5);
   border-radius:4px;
   padding: 10px;
+  background-color:white;
 
   .titleCard{
       display:flex;

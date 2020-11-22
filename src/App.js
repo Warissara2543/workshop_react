@@ -7,10 +7,14 @@ import {
   Link
 } from "react-router-dom";
 
+
 import HomePages from './pages/HomePages';
 import Register from './pages/Register';
 import AddWord from './pages/AddWord';
 import LoginPages from './pages/LoginPages';
+import MainPages from './pages/MainPages';
+import Topbar from './components/Topbar';
+
 
 const StyledWrapper = styled.div`
 
@@ -19,32 +23,24 @@ const StyledWrapper = styled.div`
 function App() {
   return (
     <StyledWrapper >
-      <div>
-        <Link to="/add-word">AddWord</Link>
-      </div>
 
       <Switch>
 
-        <Route path="/register">
+        <Route path="/Register">
           <Register />
         </Route>
 
-        <Route path="/login">
-          <LoginPages />
-        </Route>
-
-        <Route path="/add-word">
-          <AddWord />
+        <Route path="/LoginPages">
+          <LoginPages/>
         </Route>
 
         <Route path="/">
-          <HomePages />
+          <MainPages />
         </Route>
 
       </Switch>
     </StyledWrapper>
   )
-
 
 }
 

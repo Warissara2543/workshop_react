@@ -4,17 +4,24 @@ import './index.css';
 import 'antd/dist/antd.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {  BrowserRouter as Router,
-          Switch,
-          Route,
-          Link } from "react-router-dom"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom"
+
+import { AppProvider } from './context/AppContext';
+
 
 ReactDOM.render(
   // system jsx
   <React.StrictMode>
-    <Router>
-      <App />
-    </Router>
+    <AppProvider>
+      <Router>
+        <App />
+      </Router>
+    </AppProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
