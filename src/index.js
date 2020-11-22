@@ -13,6 +13,8 @@ import {
 
 import { AppProvider } from './context/AppContext';
 
+import './firebase';
+
 
 ReactDOM.render(
   // system jsx
