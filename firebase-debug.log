@@ -1,0 +1,123 @@
+[debug] [2020-11-22T10:37:16.521Z] ----------------------------------------------------------------------
+[debug] [2020-11-22T10:37:16.523Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\STD-PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-22T10:37:16.524Z] CLI Version:   8.16.2
+[debug] [2020-11-22T10:37:16.524Z] Platform:      win32
+[debug] [2020-11-22T10:37:16.524Z] Node Version:  v10.16.1
+[debug] [2020-11-22T10:37:16.525Z] Time:          Sun Nov 22 2020 17:37:16 GMT+0700 (GMT+07:00)
+[debug] [2020-11-22T10:37:16.525Z] ----------------------------------------------------------------------
+[debug] [2020-11-22T10:37:16.525Z] 
+[debug] [2020-11-22T10:37:16.534Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-22T10:37:16.535Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\STD-PC\Downloads\webdebeloper\React\workshop_react
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-11-22T10:37:42.898Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-11-22T10:37:57.556Z] Server Error. Client network socket disconnected before secure TLS connection was established
+[debug] [2020-11-22T10:38:12.192Z] FirebaseError: Server Error. Client network socket disconnected before secure TLS connection was established
+    at Request._callback (C:\Users\STD-PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\STD-PC\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.onRequestError (C:\Users\STD-PC\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:203:15)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket.EventEmitter.emit (domain.js:448:20)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2020-11-22T10:38:22.291Z] ----------------------------------------------------------------------
+[debug] [2020-11-22T10:38:22.293Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\STD-PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-22T10:38:22.294Z] CLI Version:   8.16.2
+[debug] [2020-11-22T10:38:22.294Z] Platform:      win32
+[debug] [2020-11-22T10:38:22.294Z] Node Version:  v10.16.1
+[debug] [2020-11-22T10:38:22.295Z] Time:          Sun Nov 22 2020 17:38:22 GMT+0700 (GMT+07:00)
+[debug] [2020-11-22T10:38:22.295Z] ----------------------------------------------------------------------
+[debug] [2020-11-22T10:38:22.296Z] 
+[debug] [2020-11-22T10:38:22.304Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-22T10:38:22.305Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\STD-PC\Downloads\webdebeloper\React\workshop_react
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2020-11-22T10:39:00.242Z] ----------------------------------------------------------------------
+[debug] [2020-11-22T10:39:00.244Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\STD-PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-22T10:39:00.245Z] CLI Version:   8.16.2
+[debug] [2020-11-22T10:39:00.245Z] Platform:      win32
+[debug] [2020-11-22T10:39:00.245Z] Node Version:  v10.16.1
+[debug] [2020-11-22T10:39:00.246Z] Time:          Sun Nov 22 2020 17:39:00 GMT+0700 (GMT+07:00)
+[debug] [2020-11-22T10:39:00.247Z] ----------------------------------------------------------------------
+[debug] [2020-11-22T10:39:00.247Z] 
+[debug] [2020-11-22T10:39:00.256Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-22T10:39:00.256Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\STD-PC\Downloads\webdebeloper\React\workshop_react
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-11-22T10:39:05.346Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-11-22T10:39:19.955Z] Server Error. Client network socket disconnected before secure TLS connection was established
+[debug] [2020-11-22T10:39:34.587Z] FirebaseError: Server Error. Client network socket disconnected before secure TLS connection was established
+    at Request._callback (C:\Users\STD-PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\STD-PC\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.onRequestError (C:\Users\STD-PC\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:203:15)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket.EventEmitter.emit (domain.js:448:20)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

@@ -72,7 +72,7 @@ function HomePages() {
         }).map((item, index) => {
           return (
             <Col key={index} xs={24} md={16} lg={8} span={6}>
-              <WordCard {...item} onDelete={() => { deleteVocabs(index) }} />
+              <WordCard {...item} onDelete={() => { deleteVocabs(item.word) }} />
             </Col>
           )
         })
