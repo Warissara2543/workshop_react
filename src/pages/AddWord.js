@@ -43,14 +43,11 @@ function AddWord() {
     const history = useHistory();
 
     const { vocapController } = useContext(AppContext);
-    const { vocabs, setVocabs } = vocapController;
+    const { vocabs, setVocabs, addVocabs} = vocapController;
 
     const handleClick = () => {
-        setVocabs([...vocabs, {
-            word: word,
-            types: types,
-            meanings: meanings.split(",").map((item) => item.trim())
-        }]);
+        
+        addVocabs(word,types,meanings);
 
         notification["success"]({
             message: 'Success',

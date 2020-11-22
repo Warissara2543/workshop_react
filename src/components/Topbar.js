@@ -35,7 +35,7 @@ const Topbar = () => {
                 </h1>
             </Link>
             <div className='menu'>
-                <div className='menu-item'>Your name</div>
+                <div className='menu-item'></div>
                 <Link to='/'>
                     <div className='menu-item'>HomePages</div>
                 </Link>

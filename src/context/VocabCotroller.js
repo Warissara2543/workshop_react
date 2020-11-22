@@ -5,9 +5,26 @@ const VocabController =() =>{
 
     const [vocabs, setVocabs] = useState(initData);
 
+    const addVocabs = (word,types,meanings) =>{
+        setVocabs([...vocabs, {
+            word: word,
+            types: types,
+            meanings: meanings.split(",").map((item) => item.trim())
+        }]);
+    } 
+
+    const deleteVocabs = (index) =>{
+        const newArr = vocabs.filter((data, id) => {
+            return id !== index;
+          })
+          setVocabs(newArr);
+    }
+
     return{
         vocabs: vocabs,
-        setVocabs: setVocabs
+        setVocabs: setVocabs,
+        addVocabs,
+        deleteVocabs
     }
 
 }

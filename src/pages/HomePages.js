@@ -30,25 +30,10 @@ const typesOption = [
 function HomePages() {
 
   const {vocapController} = useContext(AppContext);
-  const {vocabs,setVocabs} = vocapController;
+  const {vocabs,deleteVocabs} = vocapController;
   const [word, setWord] = useState('');
   const [types, settypes] = useState([]);
   const [meanings, setMeaning] = useState('');
-
-  const handleClick = () => {
-    // setDataList([...dataList, {
-    //   word: word,
-    //   types: types,
-    //   meanings: meanings.split(",").map((item) => item.trim())
-    // }]);
-  }
-
-  const handleDelete = (index) => {
-    const newArr = vocabs.filter((data, id) => {
-      return id !== index;
-    })
-    setVocabs(newArr);
-  }
 
   return (
 
@@ -60,7 +45,7 @@ function HomePages() {
         {vocabs.map((item, index) => {
           return (
             <Col key={index} xs={24} md={16} lg={8} span={6}>
-              <WordCard {...item} onDelete={() => { handleDelete(index) }} />
+              <WordCard {...item} onDelete={() => { deleteVocabs(index) }} />
             </Col>
           )
         })}
